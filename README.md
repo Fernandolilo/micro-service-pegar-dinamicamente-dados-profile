@@ -119,3 +119,20 @@ foram liberados todos estes endpoints, para quem quiser acessar!
 }
 }
 }
+
+liberando estes acessos e alguem sabendo o que procura terá acessoa a todos os endpointes feitos na aplicação, segurança todas, enfim,
+
+com um acesso no edpoint de beans veja, o unico endpoit que fiz esta ali para acesso!
+
+"beans": {
+"href": "http://localhost:8100/actuator/beans",
+"templated": false
+},
+
+"greetingServiceApplication": {
+"aliases": [],
+"scope": "singleton",
+"type": "br.com.sistempro.GreetingServiceApplication$$EnhancerBySpringCGLIB$$736fdd0a",
+"resource": null,
+"dependencies": []
+},
