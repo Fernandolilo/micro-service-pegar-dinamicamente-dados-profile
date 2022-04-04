@@ -136,3 +136,34 @@ com um acesso no edpoint de beans veja, o unico endpoit que fiz esta ali para ac
 "resource": null,
 "dependencies": []
 },
+
+
+acessando o endpoint env será exposto portas, configurações peculiares da aplicação,, colocarei apenas um trexo da exposição
+
+"env": {
+"href": "http://localhost:8100/actuator/env",
+"templated": false
+},
+
+"activeProfiles": [],
+"propertySources": [
+{
+"name": "server.ports",
+"properties": {
+"local.server.port": {
+"value": 8100
+}
+}
+},
+{
+"name": "commandLineArgs",
+"properties": {
+"spring.output.ansi.enabled": {
+"value": "always"
+}
+}
+},
+{
+"name": "servletContextInitParams",
+"properties":
+
